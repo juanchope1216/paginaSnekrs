@@ -1,0 +1,59 @@
+/* Estilos CSS para el formulario de inicio de sesión */
+.wrapperlogin {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border: 1px solid white;
+}
+
+/* Estilo para los campos de entrada en el formulario de inicio de sesión */
+.formlogin input[type="text"],
+.formlogin input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/* Estilo para el botón de inicio de sesión */
+.formlogin input[type="button"] {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.formlogin input[type="button"]:hover {
+    background-color: #746666;
+}
+
+/* Estilo para el mensaje de error */
+.formlogin__messageerror {
+    color: #ff5733; /* Color de error */
+    text-align: center;
+    margin-top: 10px;
+    display: none; /* Oculta el mensaje de error inicialmente */
+}
+
+/* Estilo para el fondo del formulario */
+.formlogin--background {
+ /* Cambia la ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.2; /* Reduce la opacidad para que el contenido sea más legible */
+    padding: 20px; /* Añade espacio interior al formulario */
+}

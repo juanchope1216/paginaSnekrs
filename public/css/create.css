@@ -1,0 +1,106 @@
+/* Estilos para el formulario de registro */
+.wrappercreate {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border: 1px solid white;
+}
+
+/* Estilo para los campos de entrada */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/* Estilo para el botón de enviar */
+.submit-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+
+/* Estilo para el mensaje de confirmación */
+.message {
+    color: white;
+    text-align: center;
+    display: none; /* Para ocultar inicialmente el mensaje */
+}
+.login-form-container, .register-form-container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border: 1px solid white;
+}
+
+/* Estilo para los campos de entrada */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/* Estilo para el botón de enviar */
+.submit-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+.button-link {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background-color: #333;
+}

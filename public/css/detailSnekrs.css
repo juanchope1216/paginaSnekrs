@@ -1,0 +1,159 @@
+
+/* Estilos CSS del diseño */
+/* Estilo para el encabezado */
+/* Estilo para el encabezado */
+header {
+    background-color: beige; /* Cambia el color de fondo a beige */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #fff; /* Fondo blanco para la barra de navegación */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+nav a {
+    color: #333; /* Color de enlace más oscuro */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Cambia el color de enlace al pasar el ratón */
+nav a:hover {
+    color: #ff5733; /* Cambia el color al naranja */
+}
+
+/* Estilos CSS del diseño */
+/* Estilo para el encabezado */
+h2 {
+    background-color: black; /* Cambia el color de fondo a negro */
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px; /* Añade un espacio interno de 10px alrededor del encabezado */
+}
+
+/* ... Tus otros estilos ... */
+
+
+/* Contenedor para centrar la lista */
+/* Estilos para cada zapatilla */
+/* Estilos para cada zapatilla */
+/* Estilos para cada zapatilla */
+/* Estilos para cada zapatilla */
+/* Estilos CSS para el contenedor de cada producto */
+/* Estilo para el contenedor de cada producto */
+/* Estilo para el contenedor de cada producto */
+/* Estilo para el contenedor de cada producto */
+.sneaker-container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative; /* Agrega posición relativa para que los elementos internos se posicionen correctamente */
+}
+
+/* Estilo para las imágenes de productos */
+.sneaker-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para el nombre del producto */
+.sneaker-name {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilo para el precio del producto */
+.sneaker-price {
+    font-size: 16px;
+    color: #ff5733;
+    text-align: center;
+}
+
+/* Estilo para el símbolo del euro */
+.sneaker-price::before {
+    content: "\20AC"; /* Símbolo del euro */
+    margin-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/* Estilos CSS para la paginación */
+
+
+
+.sneaker-image{
+    width: 5%;
+    height: auto; /* Mantener la proporción de aspecto original */
+    display: block;
+    margin: 10px auto;
+}
+/* Estilo especial para el título "SNEKRS" */
+
+
+/* Estilo para la imagen de fondo */
+
+/* Estilo para el fondo del formulario */
+.formlogin--background {
+    background-color: #333; /* Cambia este color a negro mate */
+    padding: 20px; /* Añade espacio interior al formulario */
+    opacity: 0.7; /* Reduce la opacidad para que el contenido sea más legible si lo deseas */
+}
+
+
+/* Estilo para el contenido principal */
+.main-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Agrega un fondo blanco semitransparente */
+    padding: 20px; /* Añade espacio interior al contenido */
+}
+
+/* Estilo para los formularios */
+
+/* Estilo para el fondo del formulario */
+.formlogin--background {
+    background-color: #333; /* Cambia este color a negro mate */
+    padding: 20px; /* Añade espacio interior al formulario */
+    opacity: 0.7; /* Reduce la opacidad para que el contenido sea más legible si lo deseas */
+}
+/* Estilos para el contenedor de logos */
+/* Estilos para el contenedor de logos */
+.logo-container {
+    display: flex; /* Usa el modelo de caja flexible para alinear los logos horizontalmente */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme en el espacio disponible */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    padding: 5px 10px; /* Agrega espacio alrededor de los logos */
+    background-color: white; /* Cambia el color de fondo para resaltar el área de los logos */
+}
+
+/* Estilos para los logos individuales */
+.logo {
+    width: 30px; /* Ajusta el ancho según tus necesidades */
+    height: 30px; /* Ajusta la altura según tus necesidades */
+}
+
+.result-image {
+    max-width: 200px; /* Ajusta el tamaño máximo según tus preferencias */
+    max-height: 200px; /* Ajusta el tamaño máximo según tus preferencias */
+    width: auto;
+    height: auto;
+    display: block; /* Esto elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Esto centra la imagen horizontalmente */
+}
+/* Estilos para el contenedor principal de resultados */
